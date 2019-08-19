@@ -1,0 +1,34 @@
+.container{
+    text-align: justify-all;
+    background: rgb(228,238,64);
+    background: linear-gradient(162deg, rgba(228,238,64,1) 0%, rgba(88,235,236,0.5690651260504201) 35%, rgba(69,209,249,1) 100%);
+}
+body {
+background: rgb(235,149,44);
+background: linear-gradient(90deg, rgba(235,149,44,0.4234068627450981) 4%, rgba(42,192,217,1) 7%, rgba(42,192,217,1) 93%, rgba(0,255,8,0.4374124649859944) 96%);}
+
+input{
+    color: cornflowerblue;
+}
+h3{
+    color: cornflowerblue;
+}
+
+.row {
+    padding: 20px;
+}
+
+.post_details {
+    background: lightgoldenrodyellow;
+    padding-top: 20px;
+    border-style: dotted;
+    border-width: thin;
+    border-color: whitesmoke;
+}
+
+.post_details:nth-child(even) {background-color: darkseagreen;}
+
+.col-lg-3 {
+    text-align: justify-all;
+    top: 10px;
+}

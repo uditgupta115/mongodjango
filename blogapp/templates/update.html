@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+{% block update %}
+    <form method="POST" action="http://127.0.0.1:8000/update/">
+        {% csrf_token %}
+        <input type="hidden" name="id" value="{{ post.id }}">
+        <input type="text" name="title" value="{{ post.title }}">
+        <input type="text" name="content" value="{{ post.content }}">
+        <input type="submit" value="Update">
+    </form>
+{% endblock %}

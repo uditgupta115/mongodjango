@@ -1,0 +1,10 @@
+{% extends 'index.html' %}
+{%  block delete %}
+    <div class="col-lg-3" style="text-align: center">
+        <form method="POST" action="http://127.0.0.1:8000/delete/">
+            {% csrf_token %}
+            <input type="hidden" name="id" value="{{ post.id }}">
+            <input type="submit" value="Delete">
+        </form>
+    </div>
+{% endblock delete %}
